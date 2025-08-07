@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  color: #fff;
+  background: #031d37;
+}
+
+main{
+  background: #0b2d4f;
+  height: 100vh;
+  height: 100dvh;
+}
