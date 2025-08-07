@@ -23,4 +23,5 @@ const AvatarPortfolio2 = () => {
 }
 
 
-export default AvatarPortfolio; AvatarPortfolio2;
+export default AvatarPortfolio;
+export { AvatarPortfolio2 };

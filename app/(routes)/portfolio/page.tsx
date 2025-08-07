@@ -1,10 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
-
 import { dataPortfolio } from "@/data";
-import AvatarPortfolio2 from "@/app/components/avatar-portfolio";
-
-import AvatarPortfolio from "@/app/components/avatar-portfolio";
+import AvatarPortfolio , { AvatarPortfolio2 }from "@/app/components/avatar-portfolio";
 import CircleImage from "@/app/components/circle-image";
 import TransitionPage from "@/app/components/transition-page";
 import ContainerPage from "@/app/components/container-page";
