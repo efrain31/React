@@ -6,7 +6,6 @@ import { CoverParticles } from "@/app/components/cover.particle";
 const ServicesPage = () => {
     return (
         <>
-
             <TransitionPage />
             <CircleImage />
             <AvatarServices />
@@ -19,7 +18,7 @@ const ServicesPage = () => {
                         Mis <span className="font-bold text-secondary"> servicios.</span>
                     </h1>
                     <p className="mb-3 text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed max-w-[90%] mx-auto md:mx-0">
-                        Ofrezco servicios de desarrollo web Frontend y Backend especializados en la creación de sitios web, aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías de FastApi's, React, CSS y JavaScript, entre otras con diseño de interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
+                        Ofrezco servicios de desarrollo web Frontend y Backend especializados en la creación de sitios web, aplicaciones atractivas y funcionales. Utilizando las últimas tecnologías de FastApis, React, CSS y JavaScript, entre otras con diseño de interfaces de usuario intuitivas y responsivas que reflejan la identidad de marca de mis clientes y mejoran su presencia en línea.
                     </p>
 
                     <a
