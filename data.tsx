@@ -1,4 +1,5 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Phone, Workflow } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Github, Phone, Workflow,ArrowRight } from "lucide-react";
+
 //npm install lucide-react
 // https://lucide.dev/guide/packages/lucide-react
 
@@ -128,22 +129,34 @@ export const serviceData = [
     {
         icon: <Crop />,
         title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
+        description: "Desarrollo de una identidad para una marca sólida coherente,diseño de logotipo, colores y elementos visuales",
     },  
+     {
+        icon: <ArrowRight className="animate-bounce" />,
+        title: "Ver más",
+        description: "Desliza para descubrir más servicios",
+    },
 ];
 
 export const dataPortfolio = [
     {
-        id: 1,
-        title: "Landing Page (Html & Arduino)",
-        image: "/img/Acuaclub.png",
+        id: 2,
+        title: "Ecommerce (React.next & tailwind)",
+        image: "/img/goodpet.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
     {
-        id: 2,
-        title: "Ecommerce (React.next & tailwind)",
-        image: "/img/goodpet.png",
+        id: 5,
+        title: "Aplicaciones Moviles (Kotlin-compose)",
+        image: "/img/good pet movil.png",
+        urlGithub: "#!",
+        urlDemo: "#!",
+    },
+    {
+        id: 1,
+        title: "Landing Page (Html & Arduino)",
+        image: "/img/Acuaclub.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
@@ -158,13 +171,6 @@ export const dataPortfolio = [
         id: 4,
         title: "Landing Page (Angular & Html)",
         image: "/img/tecnokwon.png",
-        urlGithub: "#!",
-        urlDemo: "#!",
-    },
-    {
-        id: 5,
-        title: "Aplicaciones Moviles (Kotlin-compose)",
-        image: "/img/good pet movil.png",
         urlGithub: "#!",
         urlDemo: "#!",
     },
