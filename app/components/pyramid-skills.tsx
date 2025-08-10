@@ -12,12 +12,12 @@ const levels = [
   {
     category: "Front-End",
     description: "Desarrollo de interfaces web usando React, Next.js y Tailwind CSS. Implementación de sistemas complejos con arquitectura modular.",
-    icons: ["/icons/react.webp", "/icons/laravel2.png", "/icons/html.png", "/icons/css2.jpeg "],
+    icons: ["/icons/react.webp", "/icons/laravel5.png", "/icons/html.png", "/icons/css.jpg "],
   },
   {
     category: "Back-End",
     description: "Creación de APIs y lógica del servidor con Node.js. Experiencia en bases de datos y escalabilidad mediana .",
-    icons: ["/icons/node2.png", "/icons/javascrity.png","/icons/java.png","/icons/c++.png",],
+    icons: ["/icons/node2.png", "/icons/javascrity.png","/icons/python.png","/icons/Fastapi.webp",]
   },
   {
     category: "Móvil",
@@ -32,7 +32,7 @@ const levels = [
   {
     category: "Servicios",
     description: "Implementación de servicios en la nube y APIs, incluyendo despliegue continuo con herramientas como Firebase y AWS.",
-    icons: ["/icons/firebase.png", "/icons/linux.png"],
+    icons: ["/icons/firebase.png", "/icons/linux.png", "/icons/docker.png"],
   },
 ];
 

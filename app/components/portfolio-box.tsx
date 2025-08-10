@@ -8,7 +8,7 @@ interface PortfolioBoxProps {
     id: number;
     title: string;
     image: string;
-   
+
   };
 }
 
@@ -38,7 +38,7 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
         />
 
         <div className="flex gap-5 mt-5">
-         
+
         </div>
       </div>
 
@@ -48,6 +48,13 @@ const PortfolioBox = (props: PortfolioBoxProps) => {
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/90"
           onClick={handleToggleFullScreen}
         >
+          {/* Botón X para salir */}
+          <button
+            className="absolute top-4 right-4 text-white text-3xl font-bold hover:text-red-500 transition"
+            onClick={handleToggleFullScreen}
+          >
+            ✕
+          </button>
           <div className="p-4 bg-white/10 rounded-xl flex items-center justify-center w-[90vw] h-[90vh] max-w-[900px] max-h-[900px]">
             <h3 className="absolute top-4 left-4 text-xl text-white">{title}</h3>
             <Image
